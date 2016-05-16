@@ -1,0 +1,2053 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    outline: none;
+
+    list-style: none;
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2{
+    color: black;
+
+    font-size: 20px;
+    font-weight: 100;
+    font-variant: small-caps;
+    line-height: 26px;
+}
+
+header{
+    width: auto;
+    padding: 0 10px;
+}
+
+header .content{
+    width: 100%;
+    padding: 10px 0;
+
+    text-align: center;
+}
+
+header .content .logo div{
+    position: relative;
+
+    width: 21px;
+    height: 21px;
+    margin: 0 auto -10px;
+}
+
+header .content .logo div .icon-menu:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    color: #000;
+
+    content: '\e800';
+    cursor: pointer;
+
+    font-size: 20px;
+}
+
+header .content .logo img{
+    padding-top: 20px;
+}
+
+header .content .tel{
+    position: relative;
+
+    padding-top: 10px;
+}
+
+header .content .tel .number{
+    margin-top: 10px;
+    padding: 2px 5px;
+
+    border-radius: 5px;
+    background-color: #ffd200;
+
+    text-decoration: none;
+}
+
+header .content .tel .number span{
+    color: #212121;
+    border-bottom: 1px dotted #212121;
+
+    text-transform: uppercase;
+
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+header .content .tel div{
+    position: relative;
+
+    width: 21px;
+    height: 21px;
+    margin: 0 auto -10px;
+    padding-top: 10px;
+}
+
+header .content .tel div .icon-logout:before{
+    position: absolute;
+    top: 5px;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    color: #000;
+
+    content: '\e801';
+    cursor: pointer;
+
+    font-size: 20px;
+}
+
+.create{
+    width: auto;
+    margin-bottom: 15px;
+    padding: 10px 0 25px 0;
+
+    text-align: center;
+}
+
+.create p{
+    padding-bottom: 5px;
+
+    color: black;
+
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.create a{
+    padding: 3px 8px;
+
+    color: #212121;
+    border: 1px solid #010101;
+    border-radius: 5px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 8px;
+    font-weight: 100;
+}
+
+.create a:hover{
+    background-color: #f3f0e7;
+}
+
+.works{
+    width: auto;
+    padding: 0 10px;
+}
+
+.works .content{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.works .content .download,
+.works .content .design,
+.works .content .pay,
+.works .content .get{
+    position: relative;
+
+    text-align: center;
+}
+
+.works .content .download .ellipse,
+.works .content .design .ellipse,
+.works .content .pay .ellipse,
+.works .content .get .ellipse{
+    position: absolute;
+    left: 50%;
+
+    width: 70px;
+
+    transform: translate(-50%, 0);
+}
+
+.works .content .download .cloud{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+
+    width: 40px;
+
+    transform: translate(-50%, 0);
+}
+
+.works .content .download .arrow-down{
+    position: absolute;
+    top: 35px;
+    left: 50%;
+
+    width: 13px;
+
+    transform: translate(-50%, 0);
+}
+
+.works .content .download p,
+.works .content .design p,
+.works .content .pay p,
+.works .content .get p{
+    width: 70px;
+    margin: 0 auto;
+    padding-top: 80px;
+
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.works .content .design .display{
+    position: absolute;
+    top: 15px;
+    left: 50%;
+
+    width: 40px;
+
+    transform: translate(-50%, 0);
+}
+
+.works .content .design .brush{
+    position: absolute;
+    top: 15px;
+    left: 50%;
+
+    width: 25px;
+
+    transform: translate(-42%, 0);
+}
+
+.works .content .pay .hand{
+    position: absolute;
+    top: 35px;
+    left: 50%;
+
+    width: 40px;
+
+    transform: translate(-48%, 0);
+}
+
+.works .content .pay .dollar{
+    position: absolute;
+    top: 17px;
+    left: 50%;
+
+    width: 20px;
+
+    transform: translate(15%, 0);
+}
+
+.works .content .get .basket{
+    position: absolute;
+    top: 18px;
+    left: 50%;
+
+    width: 35px;
+
+    transform: translate(-50%, 0);
+}
+
+.works .content .download p,
+.works .content .design p,
+.works .content .pay p{
+    padding-bottom: 20px;
+}
+
+.advantage{
+    width: auto;
+    padding: 0 10px;
+
+    background-color: #f3f0e7;
+}
+
+.advantage .content{
+    width: 100%;
+    padding: 10px 0;
+
+    text-align: center;
+}
+
+.advantage .content h2{
+    padding-bottom: 15px;
+}
+
+.advantage .content .social div{
+    position: relative;
+
+    width: 133px;
+    height: 133px;
+    margin: 0 auto;
+
+    border-radius: 50%;
+    background-color: white;
+}
+
+.advantage .content .social div .google{
+    position: absolute;
+    top: 7%;
+    left: 39%;
+}
+
+.advantage .content .social div .insta{
+    position: absolute;
+    top: 37%;
+    left: 40%;
+}
+
+.advantage .content .social div .vk{
+    position: absolute;
+    top: 25%;
+    right: 10%;
+}
+
+.advantage .content .social div .pinki{
+    position: absolute;
+    top: 61%;
+    right: 17%;
+}
+
+.advantage .content .social div .face{
+    position: absolute;
+    top: 61%;
+    left: 17%;
+}
+
+.advantage .content .social div .objectiv{
+    position: absolute;
+    top: 25%;
+    left: 11%;
+}
+
+.advantage .content .social div a img{
+    width: 30px;
+}
+
+.advantage .content .social h3,
+.advantage .content .edit h3,
+.advantage .content .template h3{
+    padding: 5px 0;
+
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.advantage .content .social p,
+.advantage .content .edit p,
+.advantage .content .template p{
+    padding-bottom: 10px;
+
+    font-size: 8px;
+    font-weight: 300;
+}
+
+.advantage .content .edit .circle,
+/*что б фото потом были круглыми*/
+.advantage .content .template .circle{
+    width: 133px;
+
+    border-radius: 50%;
+}
+
+.advantage .content .button{
+    padding: 3px 8px;
+
+    color: white;
+    border-radius: 5px;
+    background-color: #e11a27;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.advantage .content .button:hover{
+    background-color: #e47c83;
+}
+
+.solutions{
+    width: auto;
+    padding: 0 10px;
+
+    text-align: center;
+}
+
+.solutions .content{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.solutions .content h2{
+    padding-bottom: 15px;
+}
+
+.solutions .content .books{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.solutions .content .books .name{
+    width: 100%;
+    padding: 20px 0;
+
+    color: black;
+    border-radius: 5px 5px 0 0;
+    background-color: #ffd200;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-variant: small-caps;
+}
+
+.solutions .content .books .price{
+    position: relative;
+
+    padding: 10px 5px;
+    padding: 10px 5px 60px;
+
+    border-right: 3px solid #ffd200;
+    border-left: 3px solid #ffd200;
+
+    text-align: left;
+}
+
+.solutions .content .books .price ul{
+    padding-bottom: 15px;
+}
+
+.solutions .content .books .price li{
+    padding: 2px 0 2px 20px;
+
+    background: url(../img/check.png) no-repeat  3px;
+    background-size: 5%;
+
+    list-style: none;
+
+    font-size: 9px;
+    font-weight: 400;
+}
+
+.solutions .content .books .price p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+
+    text-align: center;
+
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.solutions .content .books .make{
+    width: 100%;
+    padding: 5px 0;
+
+    border-radius: 0 0 5px 5px;
+    background-color: #ffd200;
+
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.solutions .content .books{
+    position: relative;
+}
+
+.solutions .content .books span{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 50%;
+
+    padding: 2px;
+
+    color: #e11a27;
+    background-color: #ffd200;
+
+    transition: all .5s;
+    transform: translate(-50%, 0);
+
+    font-size: 12px;
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+.solutions .content .books span:before{
+    position: absolute;
+    top: 0;
+    left: -20px;
+
+    border-bottom: 20px solid #ffd200;
+    border-left: 20px solid transparent;
+
+    content: '';
+}
+
+.solutions .content .books span:after{
+    position: absolute;
+    top: 0;
+    right: -20px;
+
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #ffd200;
+
+    content: '';
+}
+
+.solutions .content .books:hover span{
+    z-index: 1;
+    top: -19px;
+}
+
+.testimonials{
+    width: auto;
+    padding: 0 10px 20px 0;
+
+    text-align: center;
+}
+
+.testimonials .content{
+    width: 100%;
+}
+
+.testimonials .content h2{
+    padding: 10px;
+}
+
+.testimonials .content .photo .round{
+    width: 80px;
+
+    border-radius: 50%;
+}
+
+.testimonials .content .name{
+    padding-bottom: 10px;
+}
+
+.testimonials .content .name p,
+.testimonials .content .text p{
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.testimonials .content .name p span{
+    font-size: 15px;
+    font-weight: 300;
+    font-variant: small-caps;
+}
+
+.testimonials .content .text{
+    padding-bottom: 20px;
+}
+
+.testimonials .content .text p{
+    padding-bottom: 10px;
+}
+
+.testimonials .content .text a{
+    position: relative;
+
+    padding-right: 20px;
+
+    color: black;
+
+    float: right;
+
+    text-decoration: none;
+
+    font-size: 8px;
+    font-weight: 100;
+}
+
+.testimonials .content .text a:hover{
+    border-bottom: 1px solid black;
+}
+
+.testimonials .content .text a .icon-right-thin:before{
+    position: absolute;
+    top: 1px;
+    right: 0;
+
+    width: 20px;
+    height: 20px;
+
+    color: #000;
+
+    content: '\e803';
+    cursor: pointer;
+
+    font-size: 10px;
+}
+
+.testimonials .content .button{
+    padding: 5px 10px;
+
+    color: #212121;
+    border: 1px solid #010101;
+    border-radius: 3px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.testimonials .content .button:hover{
+    background-color: #ffd200;
+}
+
+.ship{
+    width: auto;
+    padding: 0 10px;
+
+    text-align: center;
+}
+
+.ship .content{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.ship .content .terms,
+.ship .content .payment,
+.ship .content .shipping{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.ship .content .terms .name,
+.ship .content .payment .name,
+.ship .content .shipping .name{
+    width: 100%;
+    padding: 8px 0;
+
+    color: black;
+    border-radius: 5px 5px 0 0;
+    background-color: #ffd200;
+
+    font-size: 16px;
+    font-weight: 300;
+    font-variant: small-caps;
+}
+
+.ship .content .terms .description,
+.ship .content .payment .description,
+.ship .content .shipping .description{
+    width: 100%;
+    padding: 35px 0;
+
+    border-top: 5px solid white;
+    border-radius: 0 0 5px 5px;
+    background-color: #f7f0e6;
+
+    text-align: left;
+
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.ship .content .terms .description p,
+.ship .content .payment .description p,
+.ship .content .shipping .description p,
+.ship .content .shipping .description span{
+    padding: 5px 35px;
+
+    font-size: 9px;
+    font-weight: 400;
+}
+
+.ship .content .payment .description ul{
+    padding-top: 5px;
+    padding-left: 28%;
+}
+
+.ship .content .payment .description ul li{
+    padding-top: 5px;
+
+    list-style: disc;
+
+    font-size: 9px;
+    font-weight: 400;
+}
+
+.ship .content .shipping .description span{
+    color: #e11a27;
+
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+.ship .content .button{
+    padding: 3px 8px;
+
+    color: white;
+    border-radius: 5px;
+    background-color: #e11a27;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.ship .content .button:hover{
+    background-color: #e47c83;
+}
+
+.footer{
+    width: auto;
+    padding: 20px 10px;
+
+    background-color: #ffd200;
+
+    text-align: center;
+}
+
+.footer .content{
+    width: 100%;
+}
+
+.footer .content .about ul,
+.footer .content .contact ul,
+.footer .content .book ul,
+.footer .content .soc ul{
+    position: relative;
+
+    padding: 10px 0 15px 0;
+
+    list-style: none;
+
+    font-size: 9px;
+    font-weight: 400;
+}
+
+.footer .content .about ul li a,
+.footer .content .contact ul li a,
+.footer .content .book ul li a,
+.footer .content .soc ul li a{
+    color: black;
+
+    text-decoration: none;
+}
+
+.footer .content .about ul li a:hover,
+.footer .content .contact ul li a:hover,
+.footer .content .book ul li a:hover,
+.footer .content .soc ul li a:hover{
+    color: #f5f3f3;
+}
+
+
+.footer .content .about ul:before,
+.footer .content .contact ul:before,
+.footer .content .book ul:before,
+.footer .content .soc ul:before{
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 70px;
+    height: 1px;
+
+    background-color: black;
+
+    content: '';
+    transform: translate(-50%, 0);
+}
+
+.footer .content .book ul{
+    font-variant: small-caps;
+}
+
+.footer .content .soc{
+    padding-bottom: 15px;
+}
+
+.footer .content .soc ul li{
+    padding-right: 6px;
+
+    display: inline;
+}
+
+.footer .content .soc ul li a{
+    text-decoration: none;
+}
+
+.footer .content .soc ul li .icon-facebook-official:before{
+    content: '\e804';
+}
+
+.footer .content .soc ul li .icon-vkontakte-rect:before{
+    content: '\e805';
+}
+
+.footer .content .soc ul li .icon-instagram:before{
+    content: '\e806';
+}
+
+.footer .content .soc ul li .icon-facebook-official:before,
+.footer .content .soc ul li .icon-vkontakte-rect:before,
+.footer .content .soc ul li .icon-instagram:before{
+    color: #000;
+
+    cursor: pointer;
+
+    font-size: 14px;
+}
+
+.footer .content .soc img{
+    width: 45px;
+}
+
+.footer .content .copy p{
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.footer .content .copy span{
+    font-variant: small-caps;
+}
+
+
+@media screen and (min-width: 641px){
+    h2{
+        font-size: 35px;
+        line-height: 41px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    header .content{
+        padding: 3px 0;
+
+        overflow: hidden;
+    }
+
+    header .content .logo{
+        width: 50%;
+
+        float: left;
+    }
+
+    header .content .logo div .icon-menu:before{
+        top: 30px;
+        left: -140px;
+    }
+
+    header .content .logo img{
+        padding: 20px 0;
+    }
+
+    header .content .tel{
+        width: 50%;
+        padding-top: 31px;
+
+        float: left;
+    }
+
+    header .content .tel .number{
+        padding: 9px 30px;
+
+        border-radius: 10px;
+    }
+
+    header .content .tel .number span{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    header .content .tel div .icon-logout:before{
+        top: -19px;
+        left: 140px;
+    }
+
+    .create{
+        margin-bottom: 25px;
+        padding: 45px 0 120px 0;
+    }
+
+    .create p{
+        padding: 10px 0 40px 0;
+
+        font-size: 18px;
+    }
+
+    .create a{
+        padding: 6px 12px;
+
+        font-size: 16px;
+    }
+
+    .works{
+        width: auto;
+    }
+
+    .works .content{
+        width: 100%;
+        margin: 0 auto;
+
+        overflow: hidden;
+    }
+
+    .works .content .download,
+    .works .content .design,
+    .works .content .pay,
+    .works .content .get{
+        position: relative;
+
+        width: 100px;
+        padding: 0 25px;
+
+        float: left;
+    }
+
+    .works .content .download:after,
+    .works .content .design:after,
+    .works .content .pay:after{
+        position: absolute;
+        top: 48px;
+        left: 123px;
+
+        width: 55px;
+        height: 1px;
+
+        border-bottom: 4px dashed #ffd200;
+
+        content: '';
+    }
+
+    .works .content .download .ellipse,
+    .works .content .design .ellipse,
+    .works .content .pay .ellipse,
+    .works .content .get .ellipse{
+        width: 100px;
+    }
+
+    .works .content .download .cloud{
+        top: 30px;
+
+        width: 50px;
+    }
+
+    .works .content .download .arrow-down{
+        top: 48px;
+
+        width: 16px;
+    }
+
+    .works .content .download p,
+    .works .content .design p,
+    .works .content .pay p,
+    .works .content .get p{
+        width: 90px;
+        margin: 0 auto;
+        padding: 115px 0 30px 0;
+
+        font-size: 18px;
+    }
+
+    .works .content .design .display{
+        position: absolute;
+        top: 25px;
+
+        width: 46px;
+    }
+
+    .works .content .design .brush{
+        top: 25px;
+
+        width: 30px;
+    }
+
+    .works .content .pay .hand{
+        top: 45px;
+
+        width: 52px;
+    }
+
+    .works .content .pay .dollar{
+        top: 20px;
+
+        width: 25px;
+    }
+
+    .works .content .get .basket{
+        top: 25px;
+
+        width: 45px;
+    }
+
+    .advantage:after{
+        padding-bottom: 10px;
+
+        display: table;
+        clear: both;
+
+        content: ' ';
+    }
+
+    .advantage .content{
+        margin: 0 auto;
+    }
+
+    .advantage .content div{
+        overflow: hidden;
+    }
+
+    .advantage .content .social,
+    .advantage .content .edit,
+    .advantage .content .template{
+        box-sizing: border-box;
+        width: 33.3%;
+        padding: 15px 18px;
+
+        float: left;
+    }
+
+    .advantage .content .social div{
+        width: 170px;
+        height: 170px;
+    }
+
+    .advantage .content .social div a img{
+        width: 42px;
+    }
+
+    .advantage .content .social h3,
+    .advantage .content .edit h3,
+    .advantage .content .template h3{
+        padding: 10px 0;
+
+        font-size: 18px;
+    }
+
+    .advantage .content .social p,
+    .advantage .content .edit p,
+    .advantage .content .template p{
+        margin: 0 auto;
+
+        font-size: 13px;
+    }
+
+    .advantage .content .edit .circle,
+    .advantage .content .template .circle{
+        width: 170px;
+    }
+
+    .advantage .content .button{
+        margin: 20px 0;
+        padding: 10px 12px;
+
+        border-radius: 8px;
+
+        display: inline-block;
+
+        font-size: 15px;
+    }
+
+    .solutions{
+        padding: 35px 10px 60px 10px;
+    }
+
+    .solutions .content{
+        overflow: hidden;
+    }
+
+    .solutions .content h2{
+        padding-bottom: 30px;
+    }
+
+    .solutions .content .books{
+        box-sizing: border-box;
+        width: 33.3%;
+        padding: 0 20px;
+
+        float: left;
+    }
+
+    .solutions .content .books{
+        font-size: 24px;
+    }
+
+    .solutions .content .books .price li{
+        padding: 5px 0 5px 25px; /* Сместили текст вправо */
+
+        font-size: 12px;
+    }
+
+    .solutions .content .books .price p{
+        font-size: 40px;
+    }
+
+    .solutions .content .books .make{
+        padding: 10px 0;
+
+        font-size: 16px;
+    }
+
+
+    .solutions .content .books span{
+        font-size: 16px;
+    }
+
+    .testimonials{
+        padding: 20px 10px 40px 15px;
+    }
+
+    .testimonials .content{
+        box-sizing: border-box;
+        padding: 0 45% 0 0;
+    }
+
+    .testimonials .content h2{
+        padding: 15px;
+    }
+
+    .testimonials .content .photo .round{
+        width: 110px;
+    }
+
+    .testimonials .content .name{
+        padding-bottom: 15px;
+    }
+
+    .testimonials .content .name p,
+    .testimonials .content .text p{
+        font-size: 14px;
+    }
+
+    .testimonials .content .name p span{
+        font-size: 24px;
+    }
+
+    .testimonials .content .text{
+        padding-bottom: 30px;
+    }
+
+    .testimonials .content .text p{
+        padding-bottom: 15px;
+    }
+
+    .testimonials .content .text a{
+        padding-right: 35px;
+
+        font-size: 12px;
+    }
+
+    .testimonials .content .text a .icon-right-thin:before{
+        top: 0;
+
+        font-size: 18px;
+    }
+
+    .testimonials .content .button{
+        padding: 10px 20px;
+
+        border-radius: 7px;
+
+        font-size: 14px;
+    }
+
+    .ship .content{
+        padding: 30px 0;
+
+        overflow: hidden;
+    }
+
+    .ship .content div{
+        overflow: hidden;
+    }
+
+    .ship .content .terms,
+    .ship .content .payment,
+    .ship .content .shipping{
+        box-sizing: border-box;
+        width: 33.3%;
+        padding: 0 20px;
+
+        float: left;
+    }
+
+    .ship .content .terms .name,
+    .ship .content .payment .name,
+    .ship .content .shipping .name{
+        padding: 15px 0;
+
+        font-size: 26px;
+    }
+
+    .ship .content .terms .description p{
+        font-size: 14px;
+    }
+
+    .ship .content .payment .description p,
+    .ship .content .payment .description ul,
+    .ship .content .shipping .description p,
+    .ship .content .shipping .description span{
+        font-size: 14px;
+    }
+
+    .ship .content .payment .description ul li{
+        font-size: 14px;
+    }
+
+    .ship .content .button{
+        margin: 20px 0;
+        padding: 10px 12px;
+
+        border-radius: 8px;
+
+        display: inline-block;
+
+        font-size: 15px;
+    }
+
+    .footer .content{
+        overflow: hidden;
+    }
+
+    .footer .content .about,
+    .footer .content .contact,
+    .footer .content .book{
+        width: 20%;
+
+        float: left;
+
+        text-align: left;
+    }
+
+    .footer .content .soc{
+        width: 40%;
+
+        float: left;
+
+        text-align: right;
+    }
+
+    .footer .content .about ul,
+    .footer .content .contact ul,
+    .footer .content .book ul,
+    .footer .content .soc ul{
+        padding: 15px 25px 20px 0;
+
+        font-size: 14px;
+    }
+
+    .footer .content .about ul:before,
+    .footer .content .contact ul:before,
+    .footer .content .book ul:before{
+        left: 50px;
+
+        width: 100px;
+    }
+
+    .footer .content .soc ul:before{
+        right: 0;
+        left: inherit;
+
+        width: 100px;
+
+        transform: translate(0, 0);
+    }
+
+    .footer .content .soc ul li .icon-facebook-official:before,
+    .footer .content .soc ul li .icon-vkontakte-rect:before,
+    .footer .content .soc ul li .icon-instagram:before{
+        font-size: 18px;
+    }
+
+    .footer .content .soc img{
+        width: 60px;
+        padding-right: 35px;
+    }
+
+    .footer .content .copy p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+
+
+@media screen and (min-width: 1201px){
+    h2{
+        font-size: 60px;
+        line-height: 66px;
+    }
+
+    p{
+        font-size: 24px;
+    }
+
+    header .content,
+    .create .content,
+    .works .content,
+    .advantage .content,
+    .solutions .content,
+    .testimonials .content,
+    .ship .content,
+    .footer .content{
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    header .content .logo{
+        text-align: left;
+    }
+
+    header .content .logo div .icon-menu:before{
+        top: 30px;
+        left: -288px;
+
+        font-size: 25px;
+    }
+
+    header .content .logo img{
+        padding: 20px 0 0 90px;
+    }
+
+    header .content .tel{
+        width: 50%;
+        padding-top: 31px;
+
+        float: left;
+    }
+
+    header .content .tel .number{
+        margin-left: 185px;
+        padding: 9px 49px;
+
+        border-radius: 10px;
+    }
+
+    header .content .tel .number span{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    header .content .tel div .icon-logout:before{
+        top: -27px;
+        left: 280px;
+
+        font-size: 33px;
+    }
+
+    .create{
+        margin-bottom: 30px;
+        padding: 55px 0 260px 0;
+    }
+
+    .create p{
+        padding: 10px 0 100px 0;
+
+        font-size: 24px;
+    }
+
+    .create a{
+        padding: 20px 35px;
+
+        font-size: 19px;
+    }
+
+    .works .content .download,
+    .works .content .design,
+    .works .content .pay,
+    .works .content .get{
+        width: 170px;
+        padding: 0 65px;
+    }
+
+    .works .content .download:after,
+    .works .content .design:after,
+    .works .content .pay:after{
+        top: 68px;
+        left: 215px;
+
+        width: 164px;
+
+        border-bottom: 5px dashed #ffd200;
+    }
+
+    .works .content .download .ellipse,
+    .works .content .design .ellipse,
+    .works .content .pay .ellipse,
+    .works .content .get .ellipse{
+        width: 139px;
+    }
+
+    .works .content .download .cloud{
+        top: 45px;
+
+        width: 57px;
+    }
+
+    .works .content .download .arrow-down{
+        top: 65px;
+        left: 47.2%;
+
+        width: 18px;
+    }
+
+    .works .content .download p,
+    .works .content .design p,
+    .works .content .pay p,
+    .works .content .get p{
+        width: 140px;
+        padding: 155px 0 90px 0;
+
+        font-size: 24px;
+    }
+
+    .works .content .design .display{
+        top: 40px;
+
+        width: 54px;
+    }
+
+    .works .content .design .brush{
+        top: 35px;
+        left: 45.7%;
+
+        width: 33px;
+    }
+
+    .works .content .pay .hand{
+        top: 70px;
+
+        width: 62px;
+    }
+
+    .works .content .pay .dollar{
+        top: 35px;
+        left: 51%;
+
+        width: 30px;
+    }
+
+    .works .content .get .basket{
+        top: 40px;
+        left: 125px;
+
+        width: 52px;
+    }
+
+
+    @-webkit-keyframes arr{
+        0%{
+            -webkit-transform: translate(0) scale(.95);
+                    transform: translate(0) scale(.95);
+        }
+
+        50%{
+            -webkit-transform: translate(0, 5px) scale(1);
+                    transform: translate(0, 5px) scale(1);
+        }
+
+        100%{
+            -webkit-transform: translate(0, 10px) scale(.95);
+                    transform: translate(0, 10px) scale(.95);
+        }
+    }
+
+    @keyframes arr{
+        0%{
+            -webkit-transform: translate(0) scale(1);
+                    transform: translate(0) scale(1);
+        }
+
+        50%{
+            -webkit-transform: translate(0, 5px) scale(1);
+                    transform: translate(0, 5px) scale(1);
+        }
+
+        100%{
+            -webkit-transform: translate(0, 10px) scale(1);
+                    transform: translate(0, 10px) scale(1);
+        }
+    }
+
+    .arrow{
+        -webkit-animation: arr .65s infinite linear alternate;
+                animation: arr .65s infinite linear alternate;
+    }
+
+
+
+    @-webkit-keyframes kisti{
+        0%{
+            -webkit-transform: translate(0, 2px) scale(1);
+                    transform: translate(0, 2px) scale(1);
+        }
+
+        50%{
+            -webkit-transform: translate(2px, 5px) scale(1);
+                    transform: translate(2px, 5px) scale(1);
+        }
+
+        100%{
+            -webkit-transform: translate(3px, 8px) scale(1);
+                    transform: translate(3px, 8px) scale(1);
+        }
+    }
+
+    @keyframes kisti{
+        0%{
+            -webkit-transform: translate(0, 2px) scale(.95);
+                    transform: translate(0, 2px) scale(.95);
+        }
+
+        50%{
+            -webkit-transform: translate(2px, 5px) scale(1);
+                    transform: translate(2px, 5px) scale(1);
+        }
+
+        100%{
+            -webkit-transform: translate(3px, 8px) scale(.95);
+                    transform: translate(3px, 8px) scale(.95);
+        }
+    }
+
+    .paint{
+        -webkit-animation: kisti .65s infinite linear alternate;
+                animation: kisti .65s infinite linear alternate;
+    }
+
+    @-webkit-keyframes baks{
+        0%{
+            -webkit-transform: translate(0) scale(.95);
+                    transform: translate(0) scale(.95);
+        }
+
+        50%{
+            -webkit-transform: translate(0, 5px) scale(1);
+                    transform: translate(0, 5px) scale(1);
+        }
+
+        100%{
+            -webkit-transform: translate(0, 10px) scale(.95);
+                    transform: translate(0, 10px) scale(.95);
+        }
+    }
+
+    @keyframes baks{
+        0%{
+            -webkit-transform: translate(0) scale(1);
+                    transform: translate(0) scale(1);
+        }
+
+        50%{
+            -webkit-transform: translate(0, 5px) scale(1);
+                    transform: translate(0, 5px) scale(1);
+        }
+
+        100%{
+            -webkit-transform: translate(0, 10px) scale(1);
+                    transform: translate(0, 10px) scale(1);
+        }
+    }
+
+    .money{
+        -webkit-animation: baks .65s infinite linear alternate;
+                animation: baks .65s infinite linear alternate;
+    }
+
+    @-webkit-keyframes corb{
+        0%{
+            -webkit-transform: rotate(-15deg) scale(1);
+                    transform: rotate(-15deg) scale(1);
+            transform-origin: 45% 100%;
+        }
+
+        100%{
+            -webkit-transform: rotate(25deg) scale(1);
+                    transform: rotate(25deg) scale(1);
+            transform-origin: 45% 100%;
+        }
+    }
+
+    @keyframes corb{
+        0%{
+            -webkit-transform: rotate(-15deg) scale(1);
+                    transform: rotate(-15deg) scale(1);
+            transform-origin: 45% 100%;
+        }
+
+        100%{
+            -webkit-transform: rotate(25deg) scale(1);
+                    transform: rotate(25deg) scale(1);
+            transform-origin: 45% 100%;
+        }
+    }
+
+
+    .shop{
+        -webkit-animation: corb .65s infinite linear alternate;
+                animation: corb .65s infinite linear alternate;
+    }
+
+    .advantage .content{
+        margin: 0 auto;
+    }
+
+    .advantage .content h2{
+        padding: 30px 0;
+    }
+
+    .advantage .content .social,
+    .advantage .content .edit,
+    .advantage .content .template{
+        padding: 15px 18px;
+    }
+
+    .advantage .content .social .networks{
+        -webkit-transition: .5s;
+           -moz-transition: .5s;
+             -o-transition: .5s;
+    }
+
+    .advantage .content .social .networks:hover{
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+
+    .advantage .content .social div{
+        width: 267px;
+        height: 267px;
+    }
+
+    .advantage .content .social div a img{
+        width: 56px;
+    }
+
+    .advantage .content .social h3,
+    .advantage .content .edit h3,
+    .advantage .content .template h3{
+        width: 267px;
+        margin: 0 auto;
+        padding: 20px 0;
+
+        font-size: 24px;
+    }
+
+    .advantage .content .social p,
+    .advantage .content .edit p,
+    .advantage .content .template p{
+        width: 267px;
+
+        font-size: 16px;
+    }
+
+    .advantage .content .edit .circle,
+    .advantage .content .template .circle{
+        width: 267px;
+    }
+
+    .advantage .content .button{
+        margin: 60px 0;
+        padding: 23px 35px;
+
+        border-radius: 10px;
+
+        font-size: 19px;
+    }
+
+    .solutions{
+        padding: 70px 0 95px 0;
+    }
+
+    .solutions .content{
+        margin: 0 auto;
+    }
+
+    .solutions .content h2{
+        padding-bottom: 60px;
+    }
+
+    .solutions .content .boxes .books{
+        box-sizing: content-box;
+        width: 313px;
+        margin-right: 100px;
+        padding-left: 0;
+
+        transform-origin: center;
+    }
+
+    .solutions .content .boxes .book_light{
+        transform: translate(-1500px, 0);
+    }
+
+    .solutions .content .boxes .book_classic{
+        transform: scale(0);
+    }
+
+    .solutions .content .boxes .book_premium{
+        transform: translate(1500px, 0);
+    }
+
+    @-webkit-keyframes light_move{
+        0%{
+            -webkit-transform: translate(-1500px, 0);
+                    transform: translate(-1500px, 0);
+        }
+
+        100%{
+            -webkit-transform: translate(0, 0);
+                    transform: translate(0, 0);
+        }
+    }
+
+    @keyframes light_move{
+        0%{
+            -webkit-transform: translate(-1500px, 0);
+                    transform: translate(-1500px, 0);
+        }
+
+        100%{
+            -webkit-transform: translate(0, 0);
+                    transform: translate(0, 0);
+        }
+    }
+
+    .book_light_move{
+        -webkit-animation: light_move 1.5s linear both;
+                animation: light_move 1.5s linear both;
+    }
+
+    @-webkit-keyframes classic_scale{
+        0%{
+            -webkit-transform: scale(0);
+                    transform: scale(0);
+        }
+
+        100%{
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+        }
+    }
+
+    @keyframes classic_scale{
+        0%{
+            -webkit-transform: scale(0);
+                    transform: scale(0);
+        }
+
+        100%{
+            -webkit-transform: scale(1);
+                    transform: scale(1);
+        }
+    }
+
+    .book_classic_move{
+        -webkit-animation: classic_scale 1s linear both;
+                animation: classic_scale 1s linear both;
+    }
+
+    @-webkit-keyframes premium_move{
+        0%{
+            -webkit-transform: translate(1500px, 0);
+                    transform: translate(1500px, 0);
+        }
+
+        100%{
+            -webkit-transform: translate(0, 0);
+                    transform: translate(0, 0);
+        }
+    }
+
+    @keyframes premium_move{
+        0%{
+            -webkit-transform: translate(1500px, 0);
+                    transform: translate(1500px, 0);
+        }
+
+        100%{
+            -webkit-transform: translate(0, 0);
+                    transform: translate(0, 0);
+        }
+    }
+
+    .book_premium_move{
+        -webkit-animation: premium_move 1.5s linear both;
+                animation: premium_move 1.5s linear both;
+    }
+
+    .solutions .content .boxes .books:last-child{
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .solutions .content .boxes .books .name{
+        padding: 30px 0;
+
+        font-size: 36px;
+    }
+
+    .solutions .content .boxes .books .price li{
+        padding: 5px 0 5px 40px;
+
+        background: url(../img/check.png) no-repeat  10px;
+        background-size: 6%;
+
+        font-size: 18px;
+    }
+
+    .solutions .content .boxes .books .price{
+        padding-bottom: 80px;
+    }
+
+    .solutions .content .boxes .books .price p{
+        font-size: 60px;
+    }
+
+    .solutions .content .boxes .books .make{
+        padding: 12px 0;
+
+        font-size: 22px;
+    }
+
+    .solutions .content .boxes .books span{
+        left: 156px;
+
+        font-size: 21px;
+    }
+
+    .testimonials{
+        padding: 20px 10px 90px 15px;
+    }
+
+    .testimonials .content{
+        padding-right: 575px;
+
+        text-align: left;
+    }
+
+    .testimonials .content h2{
+        padding: 15px 0 50px 0;
+    }
+
+    .testimonials .content .photo{
+        width: 50%;
+
+        float: left;
+    }
+
+    .testimonials .content .photo .round{
+        width: 158px;
+    }
+
+    .testimonials .content .name{
+        width: 50%;
+        padding: 50px 0 75px 0;
+
+        float: left;
+    }
+
+    .testimonials .content .name p,
+    .testimonials .content .text p{
+        font-size: 18px;
+    }
+
+    .testimonials .content .name span{
+        font-size: 30px;
+    }
+
+    .testimonials .content .text{
+        padding-bottom: 160px;
+    }
+
+    .testimonials .content .text p{
+        padding-bottom: 40px;
+    }
+
+    .testimonials .content .text a{
+        font-size: 16px;
+    }
+
+    .testimonials .content .text a .icon-right-thin:before{
+        font-size: 23px;
+    }
+
+    .testimonials .content .button{
+        margin-left: 29%;
+        padding: 15px 30px;
+
+        border-radius: 10px;
+
+        font-size: 19px;
+    }
+
+    .ship .content{
+        padding: 90px 0;
+    }
+
+    .ship .content .terms,
+    .ship .content .payment,
+    .ship .content .shipping{
+        width: 313px;
+        padding: 0;
+    }
+
+    .ship .content .payment{
+        margin: 0 130px;
+    }
+
+    .ship .content .terms .name,
+    .ship .content .payment .name,
+    .ship .content .shipping .name{
+        padding: 20px 0;
+
+        font-size: 36px;
+    }
+
+    .ship .content .terms .description,
+    .ship .content .payment .description,
+    .ship .content .shipping .description{
+        box-sizing: border-box;
+        padding: 0 39px 0 30px;
+
+        text-align: left;
+    }
+
+    .ship .content .terms .description p,
+    .ship .content .payment .description p,
+    .ship .content .shipping .description p{
+        padding: 30px 0 0 0;
+
+        font-size: 18px;
+    }
+
+    .ship .content .payment .description ul,
+    .ship .content .shipping .description span{
+        font-size: 18px;
+    }
+
+    .ship .content .shipping .description span{
+        padding: 0 40px 0 0;
+    }
+
+    .ship .content .payment .description ul li{
+        margin-left: 10px;
+
+        font-size: 18px;
+    }
+
+    .ship .content .button{
+        margin: 60px 0 0 0;
+        padding: 15px 30px;
+
+        border-radius: 10px;
+
+        font-size: 19px;
+    }
+
+    .footer .content .about ul,
+    .footer .content .contact ul,
+    .footer .content .book ul,
+    .footer .content .social ul{
+        font-size: 18px;
+    }
+
+    .footer .content .about ul:before,
+    .footer .content .contact ul:before,
+    .footer .content .book ul:before{
+        left: 70px;
+
+        width: 153px;
+    }
+
+    .footer .content .soc ul:before{
+        right: 0;
+
+        width: 153px;
+    }
+
+    .footer .content .about ul li,
+    .footer .content .contact ul li,
+    .footer .content .book ul li{
+        padding: 5px 0;
+    }
+
+    .footer .content .soc ul li{
+        padding-right: 15px;
+    }
+
+
+    .footer .content .soc ul li .icon-facebook-official:before,
+    .footer .content .soc ul li .icon-vkontakte-rect:before,
+    .footer .content .soc ul li .icon-instagram:before{
+        font-size: 24px;
+    }
+
+    .footer .content .soc img{
+        width: 87px;
+        padding-right: 60px;
+    }
+
+    .footer .content .copy p{
+        font-size: 14px;
+    }
+}
+
+
+@font-face{
+    font-family: 'fontello';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../font/fontello.eot?7718686');
+    src: url('../font/fontello.eot?7718686#iefix') format('embedded-opentype'),
+    url('../font/fontello.woff2?7718686') format('woff2'),
+    url('../font/fontello.woff?7718686') format('woff'),
+    url('../font/fontello.ttf?7718686') format('truetype'),
+    url('../font/fontello.svg?7718686#fontello') format('svg');
+}
+
+[class^='icon-']:before,
+[class*=' icon-']:before{
+    font-family: 'fontello';
+    font-weight: normal;
+    font-style: normal;
+
+    speak: none;
+}
+
+.icon-menu:before{
+    content: '\e800';
+} /* '' */
+.icon-logout:before{
+    content: '\e801';
+} /* '' */
+.icon-check:before{
+    content: '\e802';
+} /* '' */
+.icon-right-thin:before{
+    content: '\e803';
+} /* '' */
+.icon-facebook-official:before{
+    content: '\e804';
+} /* '' */
+.icon-vkontakte-rect:before{
+    content: '\e805';
+} /* '' */
+.icon-instagram:before{
+    content: '\e806';
+} /* '' */
